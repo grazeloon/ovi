@@ -38,14 +38,17 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a>. Made with ❤ by SpencerWoo.',
+    '<a href="https://telegram.me/+xbmdpfoTM45hOWEx" target="_blank" rel="noopener noreferrer">Join Telegram for Releases and Updates.</a> This site is Hosted on Vercel.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: [],
+  protectedRoutes: [
+    "/volume_block/public/root/MEDIA",
+    "/volume_block/public/root/MEDIA/protected_0",
+  ],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:spencer.wushangbo@gmail.com',
+  email: 'https://telegram.me/+xbmdpfoTM45hOWEx',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
@@ -53,7 +56,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/grazeloon/ovi',
+      link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
   ],
 
